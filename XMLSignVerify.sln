@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLSignVerify", "Mastercard.Developer.XMLSignVerify.Core\XMLSignVerify\XMLSignVerify.csproj", "{FE9F9F48-8246-49E1-8992-9C6A7E04A3FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLSignVerifyTest", "Mastercard.Developer.XMLSignVerify.Core\XMLSignVerifyTest\XMLSignVerifyTest.csproj", "{FBDC4FA5-0435-4A51-8DD7-2E6DEB927D79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE9F9F48-8246-49E1-8992-9C6A7E04A3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9F9F48-8246-49E1-8992-9C6A7E04A3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9F9F48-8246-49E1-8992-9C6A7E04A3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9F9F48-8246-49E1-8992-9C6A7E04A3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDC4FA5-0435-4A51-8DD7-2E6DEB927D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDC4FA5-0435-4A51-8DD7-2E6DEB927D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDC4FA5-0435-4A51-8DD7-2E6DEB927D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDC4FA5-0435-4A51-8DD7-2E6DEB927D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC7BE7DE-EA1C-4F16-BC62-C4EF4D3F9761}
+	EndGlobalSection
+EndGlobal

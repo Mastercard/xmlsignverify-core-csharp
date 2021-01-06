@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <AssemblyName>XMLSignVerify</AssemblyName>
+        <RootNamespace>XMLSignVerify</RootNamespace>
+    </PropertyGroup>
+
+
+
+    <ItemGroup>
+      <PackageReference Include="System.Security.Cryptography.Xml" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>
