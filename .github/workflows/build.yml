@@ -43,6 +43,6 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"Mastercard_xmlsignverify-core-csharp" /o:"mastercard" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet clean
-          dotnet build
+          dotnet clean Mastercard.Developer.XMLSignVerify.Core/XMLSignVerify/XMLSignVerify.csproj
+          dotnet build Mastercard.Developer.XMLSignVerify.Core/XMLSignVerify/XMLSignVerify.csproj
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
