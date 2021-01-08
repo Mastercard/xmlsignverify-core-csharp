@@ -25,8 +25,8 @@ In a signed XML payload, you will see three reference nodes:
 
 ### Signing the Request <a name="signing-request"></a>
 
-`XmlSignUtil.sign(Document document, SignatureInfo signatureInfo, SignatureKeyInfo signatureKeyInfo)` signs the XML Document where:
-* `document` - the unsigned payload 
+`XmlSignUtil.Sign(XmlDocument xmlDocument, SignatureInfo signatureInfo, SignatureKeyInfo signatureKeyinfo)` signs the XML Document where:
+* `xmlDocument` - the unsigned payload 
 * `signatureInfo` - signature info which is used in signing the payload
 * `signatureKeyInfo` - signature key info which holds private key and ski bytes to be set in X509 Data element
 
@@ -34,8 +34,8 @@ Refer to [detailed message signing flow](docs/MessageSigningFlow.md).
 
 ### Verifying the Request <a name="verifying-request"></a>
 
-`XmlSignUtil.verify(Document document, PublicKey publicKey)` verifies the signed payload where:
-* `document` - the signed payload
+`XmlSignUtil.Verify(XmlDocument signedXml, AsymmetricAlgorithm publicKey)` verifies the signed payload where:
+* `signedXml` - the signed payload
 * `publicKey` - the public key
 
 Refer to [detailed message verification flow](docs/MessageVerificationFlow.md).
