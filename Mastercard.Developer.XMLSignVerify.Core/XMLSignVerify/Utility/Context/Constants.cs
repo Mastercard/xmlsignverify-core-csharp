@@ -22,7 +22,6 @@ namespace Mastercard.Developer.XMLSignVerify.Core.Utility.Context
     {
         public string apphdrtagname = "AppHdr";
         public string documenttagname = "Document";
-        public string dsNs = "http://www.w3.org/2000/09/xmldsig#";
         public string elemprefix = "urn1";
         public string namespaceuriapphdr = "urn:iso:std:iso:20022:tech:xsd:head.001.001.01";
         public string namespaceuridoc = "urn:iso:std:iso:20022:tech:xsd:rain.001.001.01";
