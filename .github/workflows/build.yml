@@ -17,7 +17,7 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 2.1.700
+        dotnet-version: 5.0
     - name: Test
       env:
         NETCORE2_TEST_PROJECT: Mastercard.Developer.XMLSignVerify.Core/XMLSignVerifyTest/XMLSignVerifyTest.csproj
