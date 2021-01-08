@@ -42,8 +42,8 @@ Considerations:
 * The signing process requires generation of digest for above 3 nodes. In the code snippets shown here, the digests are calculated during signing process, which is final step. See internal implementation of XMLSignature.sign() method. Different libraries may have their own implementation.
 * XMLSignature uses the resolvers to find the relevant node for calculating the digest for each reference.
 * ISO20022 rules mandate the reference nodes to follow specific URI attributes, as shown below.
-    -   URI="" in reference for Document node
-    -   No URI in reference node for AppHdr node
+    -   URI="" in reference for AppHdr node
+    -   No URI in reference node for Document node
     -   URI="#Id" in reference node for KeyInfo node
 * The apache santuario library used doesn't have the required resolvers for reference nodes with URI="" and no URI attribute, so the developers need to provide and register the appropriate resolver implementation. Refer to appendix for more information.
 
