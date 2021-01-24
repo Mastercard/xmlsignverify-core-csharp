@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Mastercard/ap-bah-crypto-utility/blob/master/LICENSE)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -19,7 +20,7 @@ In a signed XML payload, you will see three reference nodes:
 
 ### Compatibility <a name="compatibility"></a>
 * Visual Studio 2019+ or JetBrain Rider 2020+
-* .NET Framework 4.6+
+* Framework NET 5.0 
  
 ## Usage <a name="usage"></a>
 
