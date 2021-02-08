@@ -1,4 +1,7 @@
 [![](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Mastercard/ap-bah-crypto-utility/blob/master/LICENSE)
+[![](https://sonarcloud.io/api/project_badges/measure?project=Mastercard_xmlsignverify-core-csharp&metric=alert_status)]( https://sonarcloud.io/dashboard?id=Mastercard_xmlsignverify-core-csharp)
+[![](https://sonarcloud.io/api/project_badges/measure?project=Mastercard_xmlsignverify-core-csharp&metric=coverage)]( https://sonarcloud.io/dashboard?id=Mastercard_xmlsignverify-core-csharp)
+[![](https://sonarcloud.io/api/project_badges/measure?project=Mastercard_xmlsignverify-core-csharp&metric=vulnerabilities)]( https://sonarcloud.io/dashboard?id=Mastercard_xmlsignverify-core-csharp)
 
 ## Table of Contents
 - [Overview](#overview)
